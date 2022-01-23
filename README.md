@@ -17,7 +17,7 @@
 ### E execute o script com a flag '-c':
 ```./secondary_vnic_all_configure.sh -c```
 
-### Caso tenha executado sem a flag '-c', note que ao rodar o scrit apareceu uma tabelinha com algumas configurações definidas pela execução do script, faça a copia deste ip que foi atribuido a interface ens5 e execute:
+### Caso tenha executado sem a flag '-c', note que ao rodar o script apareceu uma tabelinha com algumas configurações definidas pela execução do script, faça a copia deste ip que foi atribuido a interface ens5 e execute:
 ```ifconfig ens5 ip-que-foi-copiado netmask 255.255.255.0```
 
 
